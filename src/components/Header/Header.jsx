@@ -6,11 +6,11 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 export default function Header() {
   return (
     <div className="w-full h-[50px] sticky top-0 z-50 flex justify-between items-center px-2 sm:px-5 bg-white">
-      <h1 className="text-[darkblue] cursor-pointer text-lg sm:text-3xl font-bold">
+      <h1 className="text-[darkblue] cursor-pointer text-sm sm:text-3xl font-bold">
         Admin Dashboard
       </h1>
-      <div className="flex items-center justify-between flex-row-reverse *:w-9 *:h-9 sm:*:w-11 sm:*:h-11 sm:gap-2">
-        <div className="w-9 h-9 rounded-full overflow-hidden">
+      <div className="flex items-center justify-between flex-row-reverse *:w-7 *:h-7 sm:*:w-11 sm:*:h-11 gap-2">
+        <div className="w-7 h-7 rounded-full overflow-hidden">
           <img src="../img/resumepic.jpg" alt="profile-pic" />
         </div>
         <div className="flex items-center justify-center">
